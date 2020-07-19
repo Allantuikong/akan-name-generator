@@ -35,3 +35,7 @@ No prerequisites. Set to run on all browsers as it is written in JavaScript.
 ### Email: _allantuix@gmail.com_
 
 ### Phone Number: _+254708785737_
+
+### [LICENSE] (https://raw.githubusercontent.com/Allantuikong/akan-name-generator/master/LICENSE)
+
+### [AKAN GENERATOR] ()
