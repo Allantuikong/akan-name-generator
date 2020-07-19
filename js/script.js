@@ -73,5 +73,8 @@ if (dayOfTheWeek ==0 && gender=="male") {
     akanName = femaleAkanNames[6];
 }
 
+let result = document.getElementById("reveal-result").innerHTML = "You were born on a " + bornDay + " so your akan name is " + akanName + "!"
+    document.getElementById("akanGenerator").reset();
 
+})
 
