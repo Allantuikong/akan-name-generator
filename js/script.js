@@ -1,12 +1,14 @@
 let akanGenerator = document.getElementById ("akanGenerator");
-akanGenerator.addEventListener("submit", (e) => {
+akanGenerator.addEventListener("submit", (event) => {
     event.preventDefault()
 
+gender= document.getElementById("gender").value //Gender values
 
-gender= document.getElementById("gender").value
+//Computation of day of birth using .getDay
+
 dateOfBirth= document.getElementById ("date").value
 
-dateOfBirth = new Date(dateOfBirth)
+dateOfBirth = new Date(dateOfBirth) 
 
 dayOfTheWeek = dateOfBirth.getDay()
 
@@ -15,6 +17,8 @@ dayOfTheWeek = dateOfBirth.getDay()
 maleAkanNames= ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
 
 femaleAkanNames= ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
+
+// Control flows
 
 if (dayOfTheWeek ==0 && gender=="male") {
     bornday= "Monday"
@@ -73,8 +77,8 @@ if (dayOfTheWeek ==0 && gender=="male") {
     akanName = femaleAkanNames[6];
 }
 
-let result = document.getElementById("reveal-result").innerHTML = "You were born on a " + bornDay + " so your akan name is " + akanName + "!"
+let result = document.getElementById("results").innerHTML = `You were born on a ${bornDay} so your akan name is ${akanName}`
     document.getElementById("akanGenerator").reset();
 
-})
+})  
 

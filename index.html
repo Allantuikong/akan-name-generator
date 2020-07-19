@@ -15,21 +15,21 @@
     <h4>To begin, provide your date of birth and gender then click the sunmit button below<h4>
     <form id="akanGenerator">
         <label for="Date">Date of Birth</label> <br>
-        <input id="date" type="Date" required> <br>
+        <input id="date" type="Date" class="form-control" required> <br>
         
-
         <div class="selectbox">
-        <select id="gender" required>
+        <select id="gender" class="form-control" required>
             <option value="">Select Gender</option>
-            <option value="female"></option>
-            <option value="male"></option>
-            <input type="submit" value="submit">
+            <option value="female">Female</option>
+            <option value="male">Male</option> 
+            <br> <br>
+            <input type="submit" value="submit" id="">
         </select>
         </div>
 
     </div>
 
-    <div id="reveal-result"></div>
+    <div id="results"></div>
 
     </form>
     
