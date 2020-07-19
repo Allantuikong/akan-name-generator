@@ -10,15 +10,17 @@
 <body>
     <form>
         <div class="form-group">
-          <label for="Input your Date of Birth">Date of Birth</label>
-          <input type="date" class="form-control" id="DOB" placeholder="password">
-          <small id="DOB help" class="form-text text-muted">Input your Date of birth as recorded in National ID.</small>
+          <label for="inputyourDOB">Date of Birth (DOB)</label>
+          <input type="date" class="form-control" id="dob1" placeholder="eg. 16/12/1996">
         </div>
         <div class="form-group">
-          <label for="Input your gender">Gender</label>
-          <input type="gender" class="form-control" id="gender" placeholder="Password">
+          <label for="inputgender">Select gender</label>
+          <select class="form-control" id="gender1">
+            <option>Male</option>
+            <option>Female</option>
+        </select>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button onclick="result()" type="submit" class="btn btn-primary">Submit</button>
       </form>
 
 
