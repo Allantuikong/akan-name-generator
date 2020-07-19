@@ -34,4 +34,5 @@ Phone Number: _+254708785737_
 
 ## Link to deployed site
 
-[Live site] ()
+[Live site] (https://allantuikong.github.io/akan-name-generator/)
+
