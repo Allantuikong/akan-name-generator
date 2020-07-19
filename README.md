@@ -2,11 +2,11 @@
 
 ## Project Description
 
-### A web application designed to take a user's birthday and calculate the day of the week they were born. Based on the day and depending on user's gender, the application outputs their *Akan names*
+A web application designed to take a user's birthday and calculate the day of the week they were born. Based on the day and depending on user's gender, the application outputs their *Akan names*
 
 ## Inspiration
 
-### Ghanian culture: _Akan names are derived from a Ghanian culture where children's first names is a day name depending on the day of the week they were born._
+Ghanian culture: _Akan names are derived from a Ghanian culture where children's first names is a day name depending on the day of the week they were born._
 
 ## Author's Information
 
@@ -26,16 +26,14 @@ No prerequisites. Set to run on all browsers as it is written in JavaScript.
 
 ## Technologies Used
 
-- ### Programming language: JavaScript
+- Programming language: JavaScript
 
-- ### HTML, CSS Custom Stylesheets, Bootstrap
+- HTML, CSS Custom Stylesheets, Bootstrap
 
 ## Contact Information
 
-### Email: _allantuix@gmail.com_
+Email: _allantuix@gmail.com_
 
-### Phone Number: _+254708785737_
+Phone Number: _+254708785737_
 
-### [LICENSE] (https://raw.githubusercontent.com/Allantuikong/akan-name-generator/master/LICENSE)
-
-### [AKAN GENERATOR] ()
+[LICENSE](https://raw.githubusercontent.com/Allantuikong/akan-name-generator/master/LICENSE)
