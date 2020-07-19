@@ -24,6 +24,10 @@ Set to run on all browsers supporting JavaScript.
 
 - HTML, CSS Custom Stylesheets, Bootstrap
 
+## Known Bugs
+
+- The calender may take long to load. If so, input Date of birth manually
+
 ## Contact Information
 
 Email: _allantuix@gmail.com_
@@ -34,5 +38,4 @@ Phone Number: _+254708785737_
 
 ## Link to deployed site
 
-[Live site] (https://allantuikong.github.io/akan-name-generator/)
-
+[Live site] (<https://allantuikong.github.io/akan-name-generator/>)
