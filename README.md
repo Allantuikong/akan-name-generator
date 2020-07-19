@@ -34,7 +34,10 @@ Email: _allantuix@gmail.com_
 
 Phone Number: _+254708785737_
 
-[LICENSE:MIT](https://raw.githubusercontent.com/Allantuikong/akan-name-generator/master/LICENSE)
+## License
 
+[MIT](https://raw.githubusercontent.com/Allantuikong/akan-name-generator/master/LICENSE)
 
-[Live link] (<https://allantuikong.github.io/akan-name-generator/>)
+## Link to deployed site
+
+[Live link](<https://allantuikong.github.io/akan-name-generator/>)
