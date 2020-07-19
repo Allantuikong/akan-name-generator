@@ -11,9 +11,25 @@
     <div class="container">
     <h1>Akan Name Generator</h1>
     <p>Greetings! Did you know that you can have a Ghanian name? Try the Akan name generator! This web program will take you birthdate and calculate the day you were born. Depending on your gender, the program will output your Akan name. Lets give it a try!   </p>
-    <p>To begin, provide your date of birth and gender then click the sunmit button below</p>
     
+    <h4>To begin, provide your date of birth and gender then click the sunmit button below<h4>
+    <form id="akanForm">
+        <label for="Date">Date of Birth</label> <br>
+        <input id="date" type="Date" required> <br>
+        <input type="submit" value="submit">
 
+        <div class="selectbox">
+        <select id="gender" required>
+            <option value="female"></option>
+            <option value="male"></option>
+        </select>
+        </div>
+
+    </div>
+
+    <div id="reveal-result"></div>
+
+    </form>
     
     <script src="js/script.js"></script>
     </div>
