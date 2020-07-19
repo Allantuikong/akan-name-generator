@@ -6,23 +6,17 @@ A web application designed to take a user's birthday and calculate the day of th
 
 ## Inspiration
 
-Ghanian culture: _Akan names are derived from a Ghanian culture where children's first names is a day name depending on the day of the week they were born._
-
-## Author's Information
+Ghanian culture: _Akan names are derived from a Ghanian culture where children's first names is a day name depending on the day of the week they were born._ This webpage aims at exploring this name giving technique.
 
 ## Setup Instruction
 
-No prerequisites. Set to run on all browsers as it is written in JavaScript.
+Set to run on all browsers supporting JavaScript.
 
 ## BDD
 
-| Behaviour | Input Example | Output Example|
-|-----------|---------------|---------------|
-| Invalid date/month | (d<=0) (d>31) | Alert: Provide valid date|
+- When provided with a birthdate, the program will compute the day of birth
 
-- When provided with a birthdate, the program should come up with the day of birth
-
-- When gender is added, the program should generate an Akan name based on the day of birthday.
+- When gender is added, the program should generate an Akan name based on the input information.
 
 ## Technologies Used
 
@@ -37,3 +31,7 @@ Email: _allantuix@gmail.com_
 Phone Number: _+254708785737_
 
 [MIT LICENSE](https://raw.githubusercontent.com/Allantuikong/akan-name-generator/master/LICENSE)
+
+## Link to deployed site
+
+[Live site] ()
