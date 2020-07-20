@@ -1,5 +1,5 @@
 let akanGenerator = document.getElementById ("akanGenerator");
-akanGenerator.addEventListener("submit", (event) => {
+akanGenerator.addEventListener ("submit"); {
     event.preventDefault()
 
 gender= document.getElementById("gender").value //Gender values
@@ -80,5 +80,5 @@ if (dayOfTheWeek ==0 && gender=="male") {
 let result = document.getElementById("results").innerHTML = `You were born on a ${bornDay} so your akan name is ${akanName}`
     document.getElementById("akanGenerator").reset();
 
-})  
+}  
 
