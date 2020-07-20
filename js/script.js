@@ -1,5 +1,5 @@
 let akanGenerator = document.getElementById ("akanGenerator");
-akanGenerator.addEventListener ("submit"); {
+akanGenerator.addEventListener ("submit", event=> {
     event.preventDefault()
 
 gender= document.getElementById("gender").value //Gender values
@@ -81,4 +81,4 @@ let result = document.getElementById("results").innerHTML = `You were born on a 
     document.getElementById("akanGenerator").reset();
 
 }  
-
+)
